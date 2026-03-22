@@ -1,103 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unitas Referral Code (harry) – Earn 10% Bonus</title>
+    <meta name="description" content="Use Unitas referral code 'harry' to earn 10% bonus rewards. Start earning points with stablecoin yield strategies.">
+    
+    <!-- Google & Naver Verification -->
+    <meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
+    <meta name="naver-site-verification" content="f28f86b7853e4f6704297b86d7def790b41e00e4" />
+    <link rel="canonical" href="https://unitas-referral-harry.vercel.app/" />
 
-<title>Unitas Referral Code (harry) – Earn Points & 10% Bonus</title>
-<meta name="description" content="Use Unitas referral code 'harry' to earn 10% bonus rewards. Start earning points with stablecoin yield strategies.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-<meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
-<meta name="naver-site-verification" content="f28f86b7853e4f6704297b86d7def790b41e00e4" />
+    <style>
+        :root {
+            --bg-color: #fdfbf7; /* 따뜻한 아이보리 */
+            --card-bg: #ffffff;
+            --primary-pink: #ffafcc; /* 소프트 핑크 */
+            --primary-blue: #a2d2ff; /* 소프트 블루 */
+            --text-main: #495057;
+            --text-bold: #212529;
+            --accent: #ff8fab;
+        }
 
-<link rel="canonical" href="https://unitas-referral-harry.vercel.app/" />
+        body {
+            font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #2c5364);
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+        }
 
-.container {
-    max-width: 600px;
-    margin: auto;
-    padding: 20px;
-}
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
 
-.card {
-    background: rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 20px;
-    margin: 20px 0;
-}
+        h1 {
+            font-size: 1.8rem;
+            color: var(--text-bold);
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
 
-.button {
-    display: inline-block;
-    padding: 12px 20px;
-    margin-top: 10px;
-    background: #00c9a7;
-    color: #000;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .highlight {
+            color: var(--accent);
+        }
 
-.copy-btn {
-    background: #fff;
-    color: #000;
-    padding: 8px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-left: 10px;
-}
-</style>
+        /* 메인 리퍼럴 카드 */
+        .main-card {
+            background: var(--card-bg);
+            border-radius: 24px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(255, 175, 204, 0.2);
+            border: 2px solid var(--primary-pink);
+            margin-bottom: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-card::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 6px;
+            background: linear-gradient(90deg, var(--primary-pink), var(--primary-blue));
+        }
+
+        .code-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #adb5bd;
+            margin-bottom: 8px;
+        }
+
+        .referral-code {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-bold);
+            margin: 10px 0;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .referral-code:hover {
+            transform: scale(1.05);
+        }
+
+        .copy-hint {
+            font-size: 0.8rem;
+            color: var(--primary-pink);
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            display: block;
+            background: var(--primary-pink);
+            color: white;
+            padding: 15px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 143, 171, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /* 정보 카드 섹션 */
+        .info-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .info-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid #f1f3f5;
+        }
+
+        .info-card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+            color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+            color: #6c757d;
+        }
+
+        /* 하단 블로그 카드 링크 */
+        .related-links {
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            border: 1px dashed var(--primary-blue);
+            transition: 0.2s;
+        }
+
+        .link-card:hover {
+            background: #f8f9fa;
+        }
+
+        .link-icon {
+            font-size: 1.5rem;
+            margin-right: 12px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #ced4da;
+            margin-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        /* 토스트 알림 */
+        #toast {
+            visibility: hidden;
+            min-width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 50px;
+            padding: 12px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            font-size: 0.9rem;
+        }
+
+        #toast.show {
+            visibility: visible;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
+        @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
+    </style>
 </head>
-
 <body>
 
 <div class="container">
+    <header>
+        <h1>Unitas <span class="highlight">Referral</span></h1>
+        <p>Maximize your stablecoin yield</p>
+    </header>
 
-<h1>Unitas Referral</h1>
+    <div class="main-card">
+        <div class="code-label">Your Invitation Code</div>
+        <div class="referral-code" id="refCode" onclick="copyCode()">harry</div>
+        <div class="copy-hint">Click the code to copy ✨</div>
+        <a href="https://evm.unitas.so/points?ref=harry" class="btn-primary">Start Earning Now</a>
+    </div>
 
-<div class="card">
-<h2>Referral Code: harry</h2>
-<button class="copy-btn" onclick="copyCode()">Copy</button>
-<br>
-<a href="https://evm.unitas.so/points?ref=harry" class="button">Start Earning</a>
+    <div class="info-grid">
+        <div class="info-card">
+            <h3>💡 About Unitas</h3>
+            <p>Unitas is a yield generation layer for stablecoins. Earn points by holding assets and participating in DeFi.</p>
+        </div>
+
+        <div class="info-card">
+            <h3>🎁 10% Bonus</h3>
+            <p>Use code <b>'harry'</b> to get a 10% bonus on your rewards. Boost your earnings from day one!</p>
+        </div>
+
+        <div class="info-card">
+            <h3>🚀 How to Start</h3>
+            <p>Hold sUSDu, USDu or provide liquidity (0.9998–1.0001 range) to accumulate daily points.</p>
+        </div>
+    </div>
+
+    <!-- 관련 블로그/링크 섹션 (카드 형태) -->
+    <div class="related-links">
+        <p style="font-weight: 600; font-size: 0.9rem; margin-bottom: 15px;">Related Guides</p>
+        <a href="#" class="link-card">
+            <span class="link-icon">📝</span>
+            <span>How to maximize Unitas Points (Guide)</span>
+        </a>
+        <a href="#" class="link-card">
+            <span class="link-icon">💰</span>
+            <span>Best Stablecoin Strategies 2026</span>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2026 Unitas Ecosystem. All rights reserved.
+    </footer>
 </div>
 
-<div class="card">
-<h3>About Unitas</h3>
-<p>Unitas is a yield generation layer focused on stablecoin strategies. Earn points by holding assets and participating in DeFi liquidity.</p>
-</div>
-
-<div class="card">
-<h3>Rewards</h3>
-<p>Earn +10% bonus from your friends' rewards without reducing their earnings.</p>
-</div>
-
-<div class="card">
-<h3>How to Earn</h3>
-<p>Hold sUSDu, USDu or provide liquidity through supported pools to earn daily rewards.</p>
-</div>
-
-<div class="card">
-<h3>FAQ</h3>
-<p><b>Referral Rewards:</b> Get 10% of your friends' rewards.</p>
-<p><b>sUSDu Rewards:</b> Points update daily based on holdings.</p>
-<p><b>LP Requirement:</b> Must use correct pool and price range 0.9998–1.0001.</p>
-</div>
-
-</div>
+<div id="toast">Code copied to clipboard!</div>
 
 <script>
 function copyCode() {
-    navigator.clipboard.writeText("harry");
-    alert("Copied!");
+    const code = document.getElementById("refCode").innerText;
+    navigator.clipboard.writeText(code).then(() => {
+        const toast = document.getElementById("toast");
+        toast.className = "show";
+        setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
+    });
 }
 </script>
 
